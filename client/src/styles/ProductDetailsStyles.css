@@ -1,0 +1,155 @@
+.product-details {
+  margin-top: 100px !important;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+.similar-products .card {
+  width: 18rem;
+  transition: 0.5s ease;
+}
+.similar-products .card:hover {
+box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.similar-products .card-name-price-a {
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: rgb(84, 228, 84);
+  font-weight: bold;
+}
+.similar-products button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-products .card-text {
+  color: rgb(90, 89, 89);
+  height: 70px;
+}
+
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+  height: 200px !important;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.col-md-6 .card-img-top{
+  height: 400px;
+  width: 350px;
+  margin-left: 80px;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  font-size: bold;
+  margin-right: 70px;
+}
+
+.dropdown-n{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  width: 1000px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-n {
+  display: block;
+}
+
+.avis{
+  cursor: pointer;
+}
+.comment-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.comment-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comment-section form input[type="text"], .comment-section form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comment-section form button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.comment-section li {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px #ccc;
+}
+
+.comment-section li h3 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.comment-section li p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.fa-solid {
+  padding-top: 15px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.fa-solid:active{
+  font-size: medium;
+}
